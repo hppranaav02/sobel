@@ -1,0 +1,10 @@
+// Latency numbers
+extern const int latRead  = 20;     // Latency of FIFO read operation
+extern const int latWrite  = 23;     // Latency of FIFO write operation
+// Worst-case latencies of functions
+extern const int lat_readPixel = 30;     // latency of readPixel
+extern const int lat_writePixel = 30;     // latency of writePixel
+extern const int lat_mask_horizon = 53;     // latency of mask_horizon
+extern const int lat_mask_vert = 53;     // latency of mask_vert
+extern const int lat_mask_final = 19;     // latency of mask_final
+extern const int lat_mask_norm = 9;     // latency of mask_norm
